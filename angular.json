@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "LearnAngularScratch"
+    }
+  },
+  "defaultProject": "LearnAngularScratch",
+  "cli": {
+    "analytics": "f97c28b7-5825-4abc-9790-992974c3343a"
+  }
 }

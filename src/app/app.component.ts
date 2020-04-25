@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'LearnAngularScratch';
+  title = 'Learn Angular';
+  body = "Hello World"
+  myObject = {
+    gender : 'male',
+    age: 33,
+    location : "India"
+  }
 }
