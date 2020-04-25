@@ -14,4 +14,8 @@ export class AppComponent {
     location : "India"
   }
   myArr = [24, 36, 4];
+
+  myImage = 'http://vishwaraj.in/img/1.jpg';
+
+  buttonStatus = false;
 }
