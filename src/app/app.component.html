@@ -17,6 +17,7 @@
 <img [src]="myImage" style="width:100px;height:auto;">
 <img bind-src="myImage" style="width:100px;height:auto;">
 <button [disabled]="buttonStatus">My Button </button>
+<button (click)="myEvent($event)"> My Event Button </button>
 
 </body>
 </html>

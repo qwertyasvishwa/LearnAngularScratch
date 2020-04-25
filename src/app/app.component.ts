@@ -18,4 +18,8 @@ export class AppComponent {
   myImage = 'http://vishwaraj.in/img/1.jpg';
 
   buttonStatus = false;
+  myEvent(event)
+  {
+    console.log(event);
+  }
 }
