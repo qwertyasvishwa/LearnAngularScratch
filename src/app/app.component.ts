@@ -13,4 +13,5 @@ export class AppComponent {
     age: 33,
     location : "India"
   }
+  myArr = [24, 36, 4];
 }
