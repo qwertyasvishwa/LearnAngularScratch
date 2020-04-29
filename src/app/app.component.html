@@ -12,9 +12,9 @@
 {{ arr }}
   </li>
 </ul>
-
+<h1 [class]="titleClass"> Hello </h1>
 <img src="{{myImage}}" style="width:100px;height:auto;">
-<img [src]="myImage" style="width:100px;height:auto;">
+<img [src]="myImage" [class]="titleClass" style="width:100px;height:auto;">
 <img bind-src="myImage" style="width:100px;height:auto;">
 <button [disabled]="buttonStatus">My Button </button>
 <button (click)="myEvent($event)"> My Event Button </button>

@@ -16,6 +16,10 @@
     margin: 8px 0;
   }
 
+  .redTitle {
+    color: red;
+  }
+
   p {
     margin: 0;
   }
